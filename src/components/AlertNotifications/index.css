@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.des {
+  color: #64748b;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.success {
+  color: #2dca76;
+}
+
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+
+.icon {
+  width: 20px;
+  align-self: center;
+  margin-right: 15px;
+}
